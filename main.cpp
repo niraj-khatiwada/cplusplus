@@ -1,7 +1,10 @@
-// #include <iostream>
-using namespace std;
+#include <iostream>
 
 int main()
 {
-    std::cout << "Hello World" << std::endl;
+    long name = __cplusplus;
+
+    std::cout << name << "\n";
+
+    return 0;
 }
