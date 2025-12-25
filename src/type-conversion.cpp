@@ -29,5 +29,12 @@ int main()
     auto ch = (char)65;
     std::cout << ch << "|" << typeid(ch).name() << "\n";
 
+    // int/double to string
+    auto stringified = std::to_string(100);
+
+    // character to string
+    std::string stringified_ch = std::to_string('A');
+    std::cout << stringified_ch << "\n"; // this will print "65" not "A"
+
     return 0;
 }
