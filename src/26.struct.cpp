@@ -4,7 +4,19 @@ struct Person {
   std::string name;
   int age;
   bool is_active = true; // default value
+
+  // You can either define and write the logic for methods here or separately if the logic is lengthy
+  bool is_person_active() {
+    return is_active;
+  }
+  // method 2:define the function here
+  bool is_person_active2();
 };
+
+bool Person::is_person_active2() {
+  return is_active;
+}
+
 void print_person(const Person person);
 void print_person2(const Person& person);
 
