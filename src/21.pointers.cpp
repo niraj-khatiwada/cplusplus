@@ -4,6 +4,7 @@ int sum_and_increment_by_1(int* a, int* b) {
   int result = *a + *b;
   (*a)++;
   (*b)++;
+
   return result;
 }
 

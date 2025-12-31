@@ -1,14 +1,12 @@
 #include <iostream>
 
 union Pointer {
-  int x;
-  int y;
+  int x, y;
 };
 
 union Pointer2 {
   double x;
-  int ar[2];
-  int arr[2];
+  int ar[2], arr[2];
 };
 
 int main() {
